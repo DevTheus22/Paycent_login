@@ -1,0 +1,80 @@
+/* === Estilo base === */
+body {
+  background-color: #1B1430;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo-card {
+  background-color: #5D3FD3;
+  color: #FFFFFF;
+  box-shadow: 0 0 12px rgba(93, 63, 211, 0.5);
+}
+
+.btn-paycent {
+  background-color: #5D3FD3;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.btn-paycent:hover {
+  background-color: #4b2bbd;
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(93, 63, 211, 0.4);
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-top: 100px; 
+  }
+}
+
+
+  .logo-card {
+    padding: 2rem 3rem;
+  }
+
+  .btn-paycent {
+    font-size: 1.05rem;
+    padding: 14px;
+  }
+
+.bg-dark-custom {
+  background-color: #130b2c;
+}
+
+.btn-paycent {
+  background-color: #6c4dff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 12px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-paycent:hover {
+  background-color: #7c5eff;
+  transform: scale(1.02);
+}
+
+.logo-card {
+  background-color: #6c4dff;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  main {
+    justify-content: flex-start !important;
+    padding-top: 80px !important;
+    min-height: 100vh;
+  }
+
+  .logo-card {
+    margin-bottom: 40px !important;
+  }
+}
